@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #fafafa;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.login{
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.session{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 350px;
+    height: 390px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    cursor: pointer;
+    padding: 25px 0px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 350px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.register a{
+    text-decoration: none;
+    color: #0095F6;
+    font-weight: 600;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    width: 350px;
+    height: 90px;
+}
+
+.descarga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download img{
+    cursor: pointer;
+    height: 40px;
+    margin-right: 7px;
+}
+
+.entrada{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enter-phone{
+    margin-bottom: 5px;
+}
+
+input{
+    width: 75%;
+    border-radius: 3px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
+::-webkit-input-placeholder {
+    color: #aaa;
+    padding: 7px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+::-moz-placeholder {
+    color: #aaa;
+    padding: 87x;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+} 
+
+button{
+    width: 75%;
+    background-color: #B2DFFC;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+    padding: 8px 20px;
+}
+
+.separator{
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.Fb-logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Fb-logo img{
+    height: 17px;
+    padding-right: 5px;
+}
+
+.Facebook{
+    cursor: pointer;
+    color: #385185;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.Pass-Forget{
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color: #fafafa;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.opciones{
+    padding: 0px 20px;
+}
+
+.line-1{
+    font-size: 12px;
+    color: #aaa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.line-1 p, .line-2 p{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+
+.line-1, .line-2, .final-info{
+    cursor: pointer;
+}
+
+.line-2{
+    font-size: 12px;
+    color: #aaa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.final-info{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: #aaa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.idiomas{
+    display: flex;
+}
+
+select{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+@media (max-width: 875px){
+    .Phone{
+        display: none;
+    }
+}
+
+@media (max-height: 836px){
+    .container{
+        height: 836px;
+    }
+}
+
+@media (max-width: 450px){
+    .container{
+        align-items: flex-start;
+    }
+
+    .session{
+        background-color: #fafafa;
+        border: none;
+    }
+
+    .register{
+        border: none;
+        background-color: #fafafa;
+    }
+
+
+}
