@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #fafafa;
 }
 
 .container{
@@ -29,6 +30,7 @@
 }
 
 .logo{
+    height: 50px;
     cursor: pointer;
     padding: 25px 0px;
 }
@@ -232,6 +234,7 @@ select{
 
 @media (max-width: 450px){
     .container{
+        height: 100vh;
         align-items: flex-start;
     }
 
@@ -245,5 +248,8 @@ select{
         background-color: #fafafa;
     }
 
+    footer{
+        /* margin-bottom: 40px; */
+    }
 
 }
