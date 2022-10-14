@@ -4,6 +4,13 @@
     background-color: #fafafa;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .container{
     background-color: #fafafa;
     height: 80vh;
@@ -233,6 +240,7 @@ select{
 }
 
 @media (max-width: 450px){
+
     .container{
         height: 100vh;
         align-items: flex-start;
